@@ -1,0 +1,27 @@
+package: github.com/hashrocket/ws
+import:
+- package: github.com/chzyer/readline
+  version: 4ffff9f41c7765e965fc9543d0242dd1088766ef
+- package: github.com/fatih/color
+  version: ^0.2.0
+- package: github.com/gorilla/websocket
+  version: a69d25be2fe2923a97c2af6849b2f52426f68fc0
+- package: github.com/inconshreveable/mousetrap
+  version: ^1.0.0
+- package: github.com/mattn/go-colorable
+  version: ^0.0.6
+- package: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- package: github.com/spf13/cobra
+  version: 9c28e4bbd74e5c3ed7aacbc552b2cab7cfdfe744
+- package: github.com/spf13/pflag
+  version: 103ce5cd2042f2fe629c1957abb64ab3e7f50235
+- package: golang.org/x/sys
+  version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
+  subpackages:
+  - unix
+- package: github.com/rgamba/evtwebsocket
+  version: ^1.0.0
+- package: golang.org/x/net
+  subpackages:
+  - websocket

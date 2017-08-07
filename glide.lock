@@ -1,0 +1,30 @@
+hash: 9fa1c75d257394e300b867005d801c7e16293cf8843fbd92274463f9b5be4846
+updated: 2017-08-07T14:46:48.46214242-06:00
+imports:
+- name: github.com/chzyer/readline
+  version: 4ffff9f41c7765e965fc9543d0242dd1088766ef
+- name: github.com/fatih/color
+  version: 87d4004f2ab62d0d255e0a38f1680aa534549fe3
+- name: github.com/gorilla/websocket
+  version: a69d25be2fe2923a97c2af6849b2f52426f68fc0
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/mattn/go-colorable
+  version: 167de6bfdfba052fa6b2d3664c8f5272e23c9072
+- name: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- name: github.com/rgamba/evtwebsocket
+  version: f226ee483c6cbf8b0e153b76b4285b4c06af3006
+- name: github.com/spf13/cobra
+  version: 9c28e4bbd74e5c3ed7aacbc552b2cab7cfdfe744
+- name: github.com/spf13/pflag
+  version: 103ce5cd2042f2fe629c1957abb64ab3e7f50235
+- name: golang.org/x/net
+  version: 97d8e4e174133a4d1d2171380e510eb4dea8f5ea
+  subpackages:
+  - websocket
+- name: golang.org/x/sys
+  version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
+  subpackages:
+  - unix
+testImports: []
